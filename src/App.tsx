@@ -9,7 +9,9 @@ const App = () => {
 
   return (
     <div>
+      useState example 
       <h1>Count: {count}</h1>
+
       <button onClick={handleClick}>
         increase count 
       </button>
